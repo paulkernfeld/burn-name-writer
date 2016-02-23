@@ -1,0 +1,25 @@
+{
+  "name": "burn-name-writer",
+  "version": "0.1.0",
+  "description": "Register usernames with BurnName",
+  "bin": {
+    "burn-name-write": "bin/write.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "burn-name"
+  ],
+  "author": "Paul Kernfeld",
+  "license": "ISC",
+  "dependencies": {
+    "burn-stream-writer": "^0.1.0",
+    "debug": "^2.2.0",
+    "minimist": "^1.2.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0.7"
+  }
+}
